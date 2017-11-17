@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="pspdfkit_license_key"
-            android:value="ZCDMwfb3SZiRJP-_65jAhVZoIMpqMk4g7P2KbS0d-SXYNj94dP8sx9VYWnu4lPjTSS28OW3X122-P1avwnPlRXepwzX7sI6SuV094VTxX8ZFcvmRjNLs36vpleZT8vDq09fKb1ZJyQBudmCzEXzt3z0G6OvwQU51opZRWs-fzG4nJcF0FGNSBwBH16CgexUkFqk_lEDHPF6g136n_Aq8HlRulV4c2NDUiOHbsXST1DcUYjBJCXMiYpuHLhtemG31N-R83hNM4Tk8qFHLrSrXykE50cU9dEo7DOR838nkSmcBawBL-4lpdkagMsjhdhAYcdC1-k7VH48bmiYm0_08ORbGUWrcMaWeVN1G1jilSpGJ9BtNHTCiTvUyx-W3tpisWZboBAwl9oQUuCiuRludLhMCSqSrMfZjxf0LDOK9BKXlCb7nJN9u0NyHMlvumhPt"/>
+        <!--<meta-data-->
+            <!--android:name="pspdfkit_license_key"-->
+            <!--android:value="ZCDMwfb3SZiRJP-_65jAhVZoIMpqMk4g7P2KbS0d-SXYNj94dP8sx9VYWnu4lPjTSS28OW3X122-P1avwnPlRXepwzX7sI6SuV094VTxX8ZFcvmRjNLs36vpleZT8vDq09fKb1ZJyQBudmCzEXzt3z0G6OvwQU51opZRWs-fzG4nJcF0FGNSBwBH16CgexUkFqk_lEDHPF6g136n_Aq8HlRulV4c2NDUiOHbsXST1DcUYjBJCXMiYpuHLhtemG31N-R83hNM4Tk8qFHLrSrXykE50cU9dEo7DOR838nkSmcBawBL-4lpdkagMsjhdhAYcdC1-k7VH48bmiYm0_08ORbGUWrcMaWeVN1G1jilSpGJ9BtNHTCiTvUyx-W3tpisWZboBAwl9oQUuCiuRludLhMCSqSrMfZjxf0LDOK9BKXlCb7nJN9u0NyHMlvumhPt"/>-->
 
         <activity android:name=".MainActivity">
             <intent-filter>

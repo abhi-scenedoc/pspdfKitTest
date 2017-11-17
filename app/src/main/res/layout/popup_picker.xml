@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:text="Cancel"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/title_text"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <!--<Button-->
+        <!--android:id="@+id/clear_btn"-->
+        <!--android:text="@string/btn_clear"-->
+        <!--style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="match_parent" />-->
+        <Button
+            android:id="@+id/select_btn"
+            android:text="Select"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <View
+        android:background="@color/colorDivLineGrey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <GridView
+        android:id="@+id/gridViewPhotoPicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>
